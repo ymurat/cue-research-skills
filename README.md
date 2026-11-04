@@ -1,6 +1,6 @@
 # Cue Research and Workflow Skills
 
-A collection of agent skills for research, writing, and presentation work. The skills are independent adaptations for Cue workflows, with their own upstream sources and licenses.
+This repository contains four independent agent skills for use with Cue, the AI assistant app. They support research and teaching, long-manuscript consistency review, citation and bibliography checks, and research-talk and poster preparation. Each skill has its own upstream source and license.
 
 ## Included skills
 
