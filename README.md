@@ -1,6 +1,6 @@
 # Cue Research and Workflow Skills
 
-This repository contains four independent agent skills for use with Cue, the AI assistant app. They support research and teaching, long-manuscript consistency review, citation and bibliography checks, and research-talk and poster preparation. Each skill has its own upstream source and license.
+This repository contains six independent agent skills for use with Cue, the AI assistant app. They support research and teaching, long-manuscript consistency review, citation and bibliography checks, research-talk and poster preparation, Zotero library workflows, and close reading of supplied sources. Each skill has its own upstream source and license.
 
 ## Included skills
 
@@ -8,11 +8,14 @@ This repository contains four independent agent skills for use with Cue, the AI 
 - **book-consistency** — read-only, chapter-by-chapter consistency review for long manuscripts.
 - **citation-management** — bilingual guidance for citation and bibliography checks in software engineering and AI research.
 - **talk-prep** — research-talk and poster preparation, including scripts, slides, Q&A, and rehearsal.
+- **zotero-library-cue** — safe, access-gated search, inspection, organization, export, and explicitly authorized modification workflows for Zotero libraries.
+- **deepread** — evidence-first close reading of user-supplied sources, with quick, deep, map, Feynman, and book modes.
 
 ## Scope and limitations
 
 - `citation-management` is a prose-only adaptation. It does not include the upstream automation scripts, references, assets, or `CITATION.cff`; it does not provide that package's automated metadata processing.
 - `talk-prep`'s speaking-time estimator supports English and Chinese rates. Its print-PDF script offers `en` and `zh` language options only. Turkish-specific timing or a verified Turkish print/PDF workflow is not included.
+- `deepread` grounds its analysis in supplied material; independent verification is separate work. It should report extraction and coverage gaps and avoid conclusions that depend on missing or unclear material.
 - Dependencies and platform assumptions vary by skill. Check each skill's `SKILL.md`, `ATTRIBUTION.md`, and bundled resources before use.
 
 ## Sources and licensing
