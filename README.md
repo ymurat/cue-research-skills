@@ -1,6 +1,6 @@
 # Cue Research and Workflow Skills
 
-This repository contains six independent agent skills for use with Cue, the AI assistant app. They support research and teaching, long-manuscript consistency review, citation and bibliography checks, research-talk and poster preparation, Zotero library workflows, and close reading of supplied sources. Each skill has its own upstream source and license.
+This repository contains eight independent agent skills for use with Cue, the AI assistant app. They support agent-harness design and evaluation, research and teaching, long-manuscript consistency review, citation and bibliography checks, research-talk and poster preparation, Zotero library workflows, and close reading of supplied sources. Each skill has its own upstream source and license.
 
 ## Included skills
 
@@ -10,6 +10,8 @@ This repository contains six independent agent skills for use with Cue, the AI a
 - **talk-prep** — research-talk and poster preparation, including scripts, slides, Q&A, and rehearsal.
 - **zotero-library-cue** — safe, access-gated search, inspection, organization, export, and explicitly authorized modification workflows for Zotero libraries.
 - **deepread** — evidence-first close reading of user-supplied sources, with quick, deep, map, Feynman, and book modes.
+- **agent-harness-cue** — designs and reviews Cue agent tool/action surfaces, input/output contracts, error recovery, and context use; it is not a substitute for whole-system architecture or security threat modeling.
+- **agent-eval-cue** — plans repeatable comparisons of Cue agents, models, prompts, tools, or workflows, recording task success, quality, time, cost, and reliability without requiring an external evaluation CLI.
 
 ## Scope and limitations
 
