@@ -1,6 +1,6 @@
 # Sources and Licenses
 
-This collection contains eight separate skill adaptations. Each component keeps its own source attribution and license. There is no umbrella license for the collection; a component's license does not automatically apply to other folders.
+This collection contains nine separate skill adaptations. Each component keeps its own source attribution and license. There is no umbrella license for the collection; a component's license does not automatically apply to other folders.
 
 | Skill or component | Upstream source | License retained here |
 |---|---|---|
@@ -12,6 +12,7 @@ This collection contains eight separate skill adaptations. Each component keeps 
 | `deepread` | [DeepRead, `research/deepread/SKILL.md`, pinned for comparison at commit `3aa22f1c9f547e37c585f3e13cb33f231a960fef`](https://github.com/alirezarezvani/claude-skills/tree/3aa22f1c9f547e37c585f3e13cb33f231a960fef/research/deepread/SKILL.md) | MIT, in `skills/deepread/LICENSE` |
 | `agent-harness-cue` | [ECC `skills/agent-harness-construction/SKILL.md`, commit `b38be6a7f6350964d59328b52f0624e1d1d552d1`](https://github.com/affaan-m/ECC/blob/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/agent-harness-construction/SKILL.md) | MIT, in `skills/agent-harness-cue/LICENSE` |
 | `agent-eval-cue` | [ECC `skills/agent-eval/SKILL.md`, commit `b38be6a7f6350964d59328b52f0624e1d1d552d1`](https://github.com/affaan-m/ECC/blob/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/agent-eval/SKILL.md) | MIT, in `skills/agent-eval-cue/LICENSE` |
+| `empirical-se-standards-cue` | [Murat Yılmaz's `empirical-se-standards` skill](https://github.com/ymurat/academic-agent-skills/tree/main/skills/empirical-se-standards); [ACM SIGSOFT Empirical Standards](https://github.com/acmsigsoft/EmpiricalStandards) checklist | MIT for the skill, in `skills/empirical-se-standards-cue/LICENSE`; the bundled checklist is separately CC0-1.0, with legal text in `skills/empirical-se-standards-cue/references/CC0-1.0.txt` |
 | `talk-prep` bundled SimplePlus theme | [SimplePlus Beamer Theme, commit `d4134a7659515d1842e599b33aa84a82e39197d2`](https://github.com/pm25/SimplePlus-BeamerTheme/tree/d4134a7659515d1842e599b33aa84a82e39197d2) | Unlicense, in `skills/talk-prep/assets/simpleplus/LICENSE`; source details in the accompanying `NOTICE.md` |
 
 ## Attribution notes
