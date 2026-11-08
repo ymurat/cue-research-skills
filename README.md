@@ -1,6 +1,6 @@
 # Cue Research and Workflow Skills
 
-This repository contains nine independent agent skills and one publisher-neutral research-article submission template set for use with Cue, the AI assistant app. The skills support agent-harness design and evaluation, empirical software engineering study design and review, research and teaching, long-manuscript consistency review, citation and bibliography checks, research-talk and poster preparation, Zotero library workflows, and close reading of supplied sources. Each component has its own source attribution and applicable license.
+This repository contains ten independent agent skills and one publisher-neutral research-article submission template set for use with Cue, the AI assistant app. The skills support agent-harness design and evaluation, empirical software engineering study design and review, research and teaching, long-manuscript consistency review, citation and bibliography checks, research-talk and poster preparation, Zotero library workflows, close reading of supplied sources, and coordination of Murat’s specialist research-and-decision team. Each component has its own source attribution and applicable license.
 
 ## Included skills
 
@@ -13,6 +13,7 @@ This repository contains nine independent agent skills and one publisher-neutral
 - **agent-harness-cue** — designs and reviews Cue agent tool/action surfaces, input/output contracts, error recovery, and context use; it is not a substitute for whole-system architecture or security threat modeling.
 - **agent-eval-cue** — plans repeatable comparisons of Cue agents, models, prompts, tools, or workflows, recording task success, quality, time, cost, and reliability without requiring an external evaluation CLI.
 - **empirical-se-standards-cue** — supports method-sensitive design, self-check, and review of empirical software engineering studies against ACM SIGSOFT Empirical Standards; its bundled checklist is CC0-1.0, separate from the skill's MIT license.
+- **research-decision-team** — routes Murat’s existing specialist Agents through focused evidence, method, domain, feasibility, and red-team work toward a decision-ready synthesis; distinct from generic councils, debates, and project-management workflows.
 
 ## Reusable templates
 
@@ -24,9 +25,10 @@ This repository contains nine independent agent skills and one publisher-neutral
 - `talk-prep`'s speaking-time estimator supports English and Chinese rates. Its print-PDF script offers `en` and `zh` language options only. Turkish-specific timing or a verified Turkish print/PDF workflow is not included.
 - `deepread` grounds its analysis in supplied material; independent verification is separate work. It should report extraction and coverage gaps and avoid conclusions that depend on missing or unclear material.
 - Dependencies and platform assumptions vary by skill. Check each skill's `SKILL.md`, `ATTRIBUTION.md`, and bundled resources before use.
+- `research-decision-team` is tailored to Murat’s current Cue Agent roster. For other users, adapt its role mapping to their available Agents; it does not create Agents or provide a persistent project-management system.
 
 ## Sources and licensing
 
 Each skill folder includes its own attribution and applicable license files. The SimplePlus theme bundled under `talk-prep` has a separate license and notice. No single license covers the collection as a whole. See [Sources and Licenses](SOURCES-AND-LICENSES.md) and follow the terms that apply to each component.
 
-These are independent adaptations and are not official releases or endorsements by their upstream authors.
+These are original skills and independent adaptations; they are not official releases or endorsements by upstream authors.
