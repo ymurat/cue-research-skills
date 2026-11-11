@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manuscript Alphabet Archive"
+  short_description: "Source-linked glyph archives and reading review"
+  default_prompt: "Use $manuscript-alphabet-archive to build or review my manuscript alphabet archive, preserving source evidence and uncertain readings."

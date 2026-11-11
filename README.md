@@ -1,6 +1,6 @@
 # Cue Research and Workflow Skills
 
-This repository contains ten independent agent skills and one publisher-neutral research-article submission template set for use with Cue, the AI assistant app. The skills support agent-harness design and evaluation, empirical software engineering study design and review, research and teaching, long-manuscript consistency review, citation and bibliography checks, research-talk and poster preparation, Zotero library workflows, close reading of supplied sources, and coordination of Murat’s specialist research-and-decision team. Each component has its own source attribution and applicable license.
+This repository contains eleven independent agent skills and one publisher-neutral research-article submission template set for use with Cue, the AI assistant app. The skills support agent-harness design and evaluation, empirical software engineering study design and review, research and teaching, long-manuscript consistency review, citation and bibliography checks, research-talk and poster preparation, Zotero library workflows, close reading of supplied sources, manuscript alphabet archives, and coordination of Murat’s specialist research-and-decision team. Each component has its own source attribution and applicable license.
 
 ## Included skills
 
@@ -15,6 +15,8 @@ This repository contains ten independent agent skills and one publisher-neutral 
 - **empirical-se-standards-cue** — supports method-sensitive design, self-check, and review of empirical software engineering studies against ACM SIGSOFT Empirical Standards; its bundled checklist is CC0-1.0, separate from the skill's MIT license.
 - **research-decision-team** — routes Murat’s existing specialist Agents through focused evidence, method, domain, feasibility, and red-team work toward a decision-ready synthesis; distinct from generic councils, debates, and project-management workflows.
 
+- **manuscript-alphabet-archive** — source-linked glyph extraction, key mappings, uncertainty tracking, archive checks, and evidence-aware learning exercises for user-supplied manuscripts. See [usage and installation](skills/manuscript-alphabet-archive/README.md).
+
 ## Reusable templates
 
 - **research-article-submission** — publisher-neutral article-outline, response-to-reviewers, and submission-cover-letter templates. See [`templates/research-article-submission/`](templates/research-article-submission/).
@@ -26,6 +28,8 @@ This repository contains ten independent agent skills and one publisher-neutral 
 - `deepread` grounds its analysis in supplied material; independent verification is separate work. It should report extraction and coverage gaps and avoid conclusions that depend on missing or unclear material.
 - Dependencies and platform assumptions vary by skill. Check each skill's `SKILL.md`, `ATTRIBUTION.md`, and bundled resources before use.
 - `research-decision-team` is tailored to Murat’s current Cue Agent roster. For other users, adapt its role mapping to their available Agents; it does not create Agents or provide a persistent project-management system.
+
+- `manuscript-alphabet-archive` is a portable workflow/reference package. It includes no manuscript scans, extracted corpus, OCR engine, database, or original pilot scripts; users supply their own sources and tools.
 
 ## Sources and licensing
 
